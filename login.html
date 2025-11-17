@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .qr{
+            background-color: white;
+            height: 450px;
+            width: 490px;
+            margin: 100px auto;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        button{
+            font-size: 20px;
+            padding: 9px;
+            border-radius: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+            display: block;
+            margin-top: -10px;
+            margin-left: 200px;
+        }
+        button:hover{
+            background-color: grey;
+            color: white;
+        }
+        input{
+            font-size: 20px;
+            height: 40px;
+            width: 400px;
+            border-radius: 10px;
+            border: 2px solid black;
+            display: block;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        label{
+            font-size: 20px;
+            margin-left: 50px;
+            margin-top: 30px;
+            display: block;
+        }
+        h1{
+            margin-left: 120px;
+        }
+        p{
+            margin-left: 350px;
+            margin-top: 20px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        nav{
+            text-align: right;
+            height: 60px;
+            width: 1253px;
+            background-color: #D3D3D3;
+        }
+        nav button a{
+            text-decoration: none;
+            color: black;
+        }
+        nav button{
+            margin-left: 1120px;
+        }
+        .acc{
+            margin-left: 50px;
+            margin-top: -33px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <button class="sign"><a href="./signup.html">Sign up</a></button>
+    </nav>
+    <div class="qr">
+        <h1>QR GENERATOR</h1>
+        <label for="uname">Username</label>
+        <input type="text" id="uname" name="uname" required><br>
+        <label for="pwd">Password</label>
+        <input type="text" id="pwd" name="pwd" required><br>
+        <p>Forget Password?</p>
+        <p class="acc"><a href="./signup.html">Create new account</a></p>
+        <button id="login">Login</button>
+    </div>
+</body>
+</html>

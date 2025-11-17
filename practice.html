@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .qr{
+            text-align: center;
+            font-size: 50px;
+        }
+        input{
+            font-size: 20px;
+            height: 40px;
+            width: 400px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin-left: 330px;
+        }
+        button{
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: grey;
+            color: white;
+        }
+        .box{
+            margin-top: 20px;
+            background-color: lightgrey;
+            height: 280px;
+            width: 280px;
+            margin-left: 500px;
+        }
+        #Down{
+            margin-left: 570px;
+            margin-top: 20px;
+        }
+        .sign{
+            font-size: 20px;
+            padding: 6px;
+            border-radius: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+            margin-left: 1050px;
+        }
+        .log{
+            font-size: 20px;
+            padding: 7px;
+            border-radius: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        nav img{
+            height: 50px;
+            width: 80px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        nav{
+            height: 80px;
+            width: 100%;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        h1 img{
+            height: 40px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button class="sign"><a href="./signup.html">Sign up</a></button>
+        <button class="log"><a href="./login.html">Log in</a></button>
+    </nav>
+    <h1>QR GENERATOR <img src="./qr.jpg" alt=""></h1>
+    <input type="text" id="text" placeholder="Enter URL">
+    <button id="generate">Generate QR Code</button>
+    </div>
+    <div class="box"></div>
+        <button id="Down">Download QR</button>
+    </div>
+</body>
+</html>
